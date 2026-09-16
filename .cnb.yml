@@ -3,7 +3,7 @@
 # event key "crontab: <POSIX>" (timezone Asia/Shanghai, min interval 5min).
 # Lives in the source repo so the mirror itself carries it to CNB main.
 main:
-  "crontab: */5 * * * *":
+  "crontab: 0 * * * *":
     - name: mirror-hourly
       stages:
         - name: mirror-from-github

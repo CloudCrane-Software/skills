@@ -1,0 +1,15 @@
+# CNB pipeline config — hourly one-way mirror GitHub -> CNB (manual 3.4).
+# This file is inert on GitHub; CNB reads it from the DEFAULT branch (main)
+# after the mirror syncs it over. No secrets here: CNB_TOKEN is injected by
+# the CNB pipeline runtime.
+$:
+  cron: "*/5 * * * *"   # TEMP test cadence; switch to "0 * * * *" after verification
+  stages:
+    - name: mirror-from-github
+      script: |
+        set -eu
+        git clone --mirror https://github.com/CloudCrane-Software/skills.git /tmp/src.git
+        cd /tmp/src.git
+        git push --force --all "https://cnb:${CNB_TOKEN}@cnb.cool/Cloudbird-Software/skills.git"
+        git push --force --tags "https://cnb:${CNB_TOKEN}@cnb.cool/Cloudbird-Software/skills.git"
+        echo "mirror sync done"

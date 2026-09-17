@@ -1,0 +1,23 @@
+{
+  "statement": {
+    "_type": "https://in-toto.io/Statement/v1",
+    "subject": [
+      {
+        "name": "/tmp/artifacts/demo-hello-capability/README.md",
+        "digest": {
+          "sha256": "8dcb0b3a606a70598227351199d394b45a8d72a289a6441b6606db44cf1fe13e"
+        }
+      }
+    ],
+    "predicateType": "https://cloudcrane.software/eval/v1",
+    "predicate": {
+      "capability": "demo-hello-capability",
+      "commit": "21710ce190c5fe2e3d5b3450f32f0678da09c1a9",
+      "evaluator": "eval-signer",
+      "evalDigest": "demo-run-20260917-ci5",
+      "thresholdVersion": "kernel.yaml@v1",
+      "passedAt": "2026-09-17T07:39:53.555587Z"
+    }
+  },
+  "signature": "vault:v1:187LShX+yzPNmgIszE4NEP6nvJouZKP3TVxIbZhQzh+SNmM/E+pYHOApkntnR/R5IFZdfZ3T1sPLD0hIo0t5AQ=="
+}

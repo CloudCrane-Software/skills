@@ -1,0 +1,29 @@
+{
+  "statement": {
+    "_type": "https://in-toto.io/Statement/v1",
+    "subject": [
+      {
+        "name": "/tmp/artifacts/restate-audit-export/README.md",
+        "digest": {
+          "sha256": "d2e140912f5870bdec4a04e4a863bf7d8c415192fbca649f7ea6b1e36e51951f"
+        }
+      },
+      {
+        "name": "/tmp/artifacts/restate-audit-export/SKILL.md",
+        "digest": {
+          "sha256": "3d65085bf3dcb49e113b17b2fe5af6482a4bcbec7d399bf986c6552478d71513"
+        }
+      }
+    ],
+    "predicateType": "https://cloudcrane.software/eval/v1",
+    "predicate": {
+      "capability": "restate-audit-export",
+      "commit": "08dd467387d3a0972138b22e50761c5887786264",
+      "evaluator": "eval-signer",
+      "evalDigest": "0c649cb5c92f2f62707d0207605bb59c532f2c9ea04b9d4e35fea4de0aae6905",
+      "thresholdVersion": "kernel.yaml@v1",
+      "passedAt": "2026-09-18T02:08:00.606314Z"
+    }
+  },
+  "signature": "vault:v1:4l3GP1uUvXniUGz84vu0PfWTTDP9GCSae2p5/RxudNnYwN+246J6WpE3G90TqqXYL3cRh8KBIfEEsj93YD0iCg=="
+}

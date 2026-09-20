@@ -1,0 +1,195 @@
+{
+  "cases": [
+    {
+      "case_id": "wo101-redis-drift-1",
+      "clean_verified": true,
+      "cleaned": true,
+      "detected": true,
+      "detected_at": "2026-09-20T10:04:43.137170+00:00",
+      "error": null,
+      "findings": [
+        {
+          "baseline": 0,
+          "counter": "key:wo101-drift:wo101-redis-drift-1",
+          "current": 1,
+          "system": "redis"
+        }
+      ],
+      "injected_at": "2026-09-20T10:04:43.137150+00:00",
+      "resource": {
+        "aux": "",
+        "case_id": "wo101-redis-drift-1",
+        "created_at": "2026-09-20T10:04:43.137150+00:00",
+        "handle": "wo101-drift:wo101-redis-drift-1",
+        "system": "redis"
+      },
+      "system": "redis"
+    },
+    {
+      "case_id": "wo101-clickhouse-drift-1",
+      "clean_verified": true,
+      "cleaned": true,
+      "detected": true,
+      "detected_at": "2026-09-20T10:04:46.282123+00:00",
+      "error": null,
+      "findings": [
+        {
+          "baseline": 0,
+          "counter": "rows:wo101_drift_wo101-clickhouse-drift-1",
+          "current": 3,
+          "system": "clickhouse"
+        }
+      ],
+      "injected_at": "2026-09-20T10:04:46.282104+00:00",
+      "resource": {
+        "aux": "",
+        "case_id": "wo101-clickhouse-drift-1",
+        "created_at": "2026-09-20T10:04:46.282104+00:00",
+        "handle": "wo101_drift_wo101-clickhouse-drift-1",
+        "system": "clickhouse"
+      },
+      "system": "clickhouse"
+    },
+    {
+      "case_id": "wo101-minio-drift-1",
+      "clean_verified": true,
+      "cleaned": true,
+      "detected": true,
+      "detected_at": "2026-09-20T10:04:49.459740+00:00",
+      "error": null,
+      "findings": [
+        {
+          "baseline": 0,
+          "counter": "bucket:wo101-drift-wo101-minio-drift-1",
+          "current": 1,
+          "system": "minio"
+        },
+        {
+          "baseline": 0,
+          "counter": "objects:wo101-drift-wo101-minio-drift-1",
+          "current": 2,
+          "system": "minio"
+        }
+      ],
+      "injected_at": "2026-09-20T10:04:49.459722+00:00",
+      "resource": {
+        "aux": "",
+        "case_id": "wo101-minio-drift-1",
+        "created_at": "2026-09-20T10:04:49.459722+00:00",
+        "handle": "wo101-drift-wo101-minio-drift-1",
+        "system": "minio"
+      },
+      "system": "minio"
+    },
+    {
+      "case_id": "wo101-zot-drift-1",
+      "clean_verified": true,
+      "cleaned": true,
+      "detected": true,
+      "detected_at": "2026-09-20T10:04:52.672399+00:00",
+      "error": null,
+      "findings": [
+        {
+          "baseline": 0,
+          "counter": "tags:wo101-drift/wo101-zot-drift-1:drift",
+          "current": 1,
+          "system": "zot"
+        }
+      ],
+      "injected_at": "2026-09-20T10:04:52.672381+00:00",
+      "resource": {
+        "aux": "{\"digest\": \"sha256:1962d94ad746edc28d5cf0ffbca9ec34653b7e5f164164c5a5fe68fd66d4a19f\", \"blobs\": [\"sha256:40948e70c55857b93ae3034e63ec05e8775349d45a604fbb3b6d0a3573a7fe96\", \"sha256:0da1511bcde4221faef723fb3915acec32f33a953260d601dcdcdfeb16c1d7b0\"]}",
+        "case_id": "wo101-zot-drift-1",
+        "created_at": "2026-09-20T10:04:52.672381+00:00",
+        "handle": "wo101-drift/wo101-zot-drift-1",
+        "system": "zot"
+      },
+      "system": "zot"
+    },
+    {
+      "case_id": "wo101-litellm-drift-1",
+      "clean_verified": true,
+      "cleaned": true,
+      "detected": true,
+      "detected_at": "2026-09-20T10:04:55.964723+00:00",
+      "error": null,
+      "findings": [
+        {
+          "baseline": 0,
+          "counter": "virtual_key:wo101-drift/wo101-litellm-drift-1",
+          "current": 1,
+          "system": "litellm"
+        }
+      ],
+      "injected_at": "2026-09-20T10:04:55.964703+00:00",
+      "resource": {
+        "aux": "***REDACTED***",
+        "case_id": "wo101-litellm-drift-1",
+        "created_at": "2026-09-20T10:04:55.964703+00:00",
+        "handle": "wo101-drift/wo101-litellm-drift-1",
+        "system": "litellm"
+      },
+      "system": "litellm"
+    },
+    {
+      "case_id": "wo101-langfuse-drift-1",
+      "clean_verified": true,
+      "cleaned": true,
+      "detected": true,
+      "detected_at": "2026-09-20T10:05:05.575711+00:00",
+      "error": null,
+      "findings": [
+        {
+          "baseline": 0,
+          "counter": "trace:wo101-drift-wo101-langfuse-drift-1-100459279244",
+          "current": 1,
+          "system": "langfuse"
+        }
+      ],
+      "injected_at": "2026-09-20T10:04:59.316833+00:00",
+      "resource": {
+        "aux": "",
+        "case_id": "wo101-langfuse-drift-1",
+        "created_at": "2026-09-20T10:04:59.316833+00:00",
+        "handle": "wo101-drift-wo101-langfuse-drift-1-100459279244",
+        "system": "langfuse"
+      },
+      "system": "langfuse"
+    }
+  ],
+  "control_window": {
+    "cycles": 2,
+    "false_positives": [],
+    "snapshots": 3
+  },
+  "episode": null,
+  "gates": [
+    {
+      "detail": "adapters=6==N(6)",
+      "gate": "G1",
+      "passed": true
+    },
+    {
+      "detail": "detected/total=6/6 (100%)",
+      "gate": "G2",
+      "passed": true
+    },
+    {
+      "detail": "false_positives=0 over 2 cycle(s), 3 snapshots",
+      "gate": "G3",
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-09-20T10:05:40.967532+00:00",
+  "notes": [],
+  "profile": "live",
+  "suite": "wo101-reconciler-adapters",
+  "system_list": [
+    "redis",
+    "clickhouse",
+    "minio",
+    "zot",
+    "litellm",
+    "langfuse"
+  ]
+}

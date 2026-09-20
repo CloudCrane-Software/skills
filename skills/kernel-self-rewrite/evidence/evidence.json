@@ -1,0 +1,29 @@
+{
+  "statement": {
+    "_type": "https://in-toto.io/Statement/v1",
+    "subject": [
+      {
+        "name": "/tmp/artifacts/kernel-self-rewrite/README.md",
+        "digest": {
+          "sha256": "29855bb22f94f39c3d1d1164e24f856a8fd3168340ca6111279770beaddba910"
+        }
+      },
+      {
+        "name": "/tmp/artifacts/kernel-self-rewrite/SKILL.md",
+        "digest": {
+          "sha256": "ddc0c4a4d61452fb7b981927d2405b8cd6347985b4792c87ac19dd5e26707676"
+        }
+      }
+    ],
+    "predicateType": "https://cloudcrane.software/eval/v1",
+    "predicate": {
+      "capability": "kernel-self-rewrite",
+      "commit": "ed6b76777b4edead873187c7ae2556ddd408c439",
+      "evaluator": "eval-signer",
+      "evalDigest": "8c456b14fd413c0817a74abd74d5979310417c56837dc4ed46daac18759633e3",
+      "thresholdVersion": "kernel.yaml@v1",
+      "passedAt": "2026-09-20T11:59:55.420768Z"
+    }
+  },
+  "signature": "vault:v1:SPJ7QeN3u2g5TF5bV62Bn6Weab8NpX8FPE/C7DArUfWal9laRkCmB5l5tBf2cZJ80rDnXiUw3sjQcxuACwNxCg=="
+}

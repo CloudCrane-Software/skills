@@ -18,12 +18,16 @@
     "predicateType": "https://cloudcrane.software/eval/v1",
     "predicate": {
       "capability": "kernel-self-rewrite",
-      "commit": "ed6b76777b4edead873187c7ae2556ddd408c439",
+      "commit": "dd2962694e32286003388ffb913696735c41d7f9",
       "evaluator": "eval-signer",
-      "evalDigest": "8c456b14fd413c0817a74abd74d5979310417c56837dc4ed46daac18759633e3",
+      "evalDigest": "e146a213dc1575b672377b5f9bdc872458e44710ffc976fb8cf345d776d4efc8",
       "thresholdVersion": "kernel.yaml@v1",
-      "passedAt": "2026-09-20T11:59:55.420768Z"
+      "passedAt": "2026-09-21T14:44:21.586693Z"
     }
   },
-  "signature": "vault:v1:SPJ7QeN3u2g5TF5bV62Bn6Weab8NpX8FPE/C7DArUfWal9laRkCmB5l5tBf2cZJ80rDnXiUw3sjQcxuACwNxCg=="
+  "signature": {
+    "value": "vault:v1:rJDT3aAnRSUh2qeN+eR9Mv0UG9ZLLKC8oBOTtDV6k6T0LWsojSksIAHGxo0flm3t4809mGVSxaf5LESfXEgRDg==",
+    "keyid": "eval-signer/v1",
+    "algorithm": "ed25519"
+  }
 }
